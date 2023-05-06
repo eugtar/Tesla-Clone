@@ -19,12 +19,20 @@ const Home = () => {
             on: true,
             titleText: "Model Y",
             linkText: "View Inventory",
-            path: "/",
+            path: "https://www.tesla.com/inventory/new/my",
           }}
         />
         <div className="flex flex-col items-center justify-center text-sm lg:flex-row absolute inset-x-0 bottom-[10%]">
-          <Button to="/" btnStyle="black" title="Order Now" />
-          <Button to="/" btnStyle="white" title="Demo Drive" />
+          <Button
+            to="https://www.tesla.com/modely/design#overview"
+            btnStyle="black"
+            title="Order Now"
+          />
+          <Button
+            to="https://www.tesla.com/drive"
+            btnStyle="white"
+            title="Demo Drive"
+          />
         </div>
         <div className="flex justify-center absolute inset-x-0 bottom-[2%] animate-bounce">
           <FiChevronDown
@@ -43,12 +51,20 @@ const Home = () => {
               on: true,
               titleText: "Model 3",
               linkText: "View Inventory",
-              path: "/",
+              path: "https://www.tesla.com/inventory/new/m3",
             }}
           />
           <div className="flex flex-col items-center justify-center text-sm lg:flex-row absolute inset-x-0 bottom-[10%]">
-            <Button to="/" btnStyle="black" title="Order Now" />
-            <Button to="/" btnStyle="white" title="Demo Drive" />
+            <Button
+              to="https://www.tesla.com/model3/design#overview"
+              btnStyle="black"
+              title="Order Now"
+            />
+            <Button
+              to="https://www.tesla.com/drive"
+              btnStyle="white"
+              title="Demo Drive"
+            />
           </div>
         </Article>
       </div>
@@ -58,12 +74,20 @@ const Home = () => {
             on: true,
             titleText: "Model S",
             linkText: "View Inventory",
-            path: "/",
+            path: "https://www.tesla.com/inventory/new/ms",
           }}
         />
         <div className="flex flex-col items-center justify-center text-sm lg:flex-row absolute inset-x-0 bottom-[10%]">
-          <Button to="/" btnStyle="black" title="Order Now" />
-          <Button to="/" btnStyle="white" title="Demo Drive" />
+          <Button
+            to="https://www.tesla.com/models/design#overview"
+            btnStyle="black"
+            title="Order Now"
+          />
+          <Button
+            to="https://www.tesla.com/drive"
+            btnStyle="white"
+            title="Demo Drive"
+          />
         </div>
       </Article>
       <Article className="bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/bf349924-f9ef-408f-b8b3-0afb85654c07/bvlatuR/std/800x1700/Homepage-Model-X-Mobile-LHD')] lg:bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/adf93943-f1b8-41d6-a47c-f6009ea1c836/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD')]">
@@ -72,12 +96,20 @@ const Home = () => {
             on: true,
             titleText: "Model X",
             linkText: "View Inventory",
-            path: "/",
+            path: "https://www.tesla.com/inventory/new/mx",
           }}
         />
         <div className="flex flex-col items-center justify-center text-sm lg:flex-row absolute inset-x-0 bottom-[10%]">
-          <Button to="/" btnStyle="black" title="Order Now" />
-          <Button to="/" btnStyle="white" title="Demo Drive" />
+          <Button
+            to="https://www.tesla.com/modelx/design#overview"
+            btnStyle="black"
+            title="Order Now"
+          />
+          <Button
+            to="https://www.tesla.com/drive"
+            btnStyle="white"
+            title="Demo Drive"
+          />
         </div>
       </Article>
       <Article className="bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/da02ce3e-3ede-4fa4-8fcb-e8d5d6681cfb/bvlatuR/std/600x1576/Homepage-SolarPanels-Mobile')] lg:bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/16b04537-a4be-4bf9-8637-86862a858da8/bvlatuR/std/2880x1800/_25-HP-SolarPanels-D')]">
@@ -90,8 +122,16 @@ const Home = () => {
           }}
         />
         <div className="flex flex-col items-center justify-center text-sm lg:flex-row absolute inset-x-0 bottom-[10%]">
-          <Button to="/" btnStyle="black" title="Order Now" />
-          <Button to="/" btnStyle="white" title="Learn More" />
+          <Button
+            to="https://www.tesla.com/energy/design"
+            btnStyle="black"
+            title="Order Now"
+          />
+          <Button
+            to="https://www.tesla.com/solarpanels"
+            btnStyle="white"
+            title="Learn More"
+          />
         </div>
       </Article>
       <Article className="bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/3f6f20d2-ad05-41b7-b181-9fb6f01af119/bvlatuR/std/800x2100/Homepage-SolarRoof-Mobile')] lg:bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/4a41ec0e-7316-46a8-8ce9-e2f195ba644d/bvlatuR/std/2880x1800/Homepage-SolarRoof-Desktop-Global')]">
@@ -104,8 +144,16 @@ const Home = () => {
           }}
         />
         <div className="flex flex-col items-center justify-center text-sm lg:flex-row absolute inset-x-0 bottom-[10%]">
-          <Button to="/" btnStyle="black" title="Order Now" />
-          <Button to="/" btnStyle="white" title="Learn More" />
+          <Button
+            to="https://www.tesla.com/solarroof/design"
+            btnStyle="black"
+            title="Order Now"
+          />
+          <Button
+            to="https://www.tesla.com/solarroof"
+            btnStyle="white"
+            title="Learn More"
+          />
         </div>
       </Article>
       <Article className="bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/12f15753-d4af-4f4a-920b-65e9e260c521/bvlatuR/std/800x2100/Homepage-Accessories-Mobile')] lg:bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/dd739764-bcaa-4263-9488-8c73bc9fb046/bvlatuR/std/0x0/dd739764-bcaa-4263-9488-8c73bc9fb046')]">
@@ -116,7 +164,11 @@ const Home = () => {
           }}
         />
         <div className="flex flex-col items-center justify-center text-sm lg:flex-row absolute inset-x-0 bottom-[10%]">
-          <Button to="/" btnStyle="black" title="Shop Now" />
+          <Button
+            to="https://www.tesla.com/shop?tesref=true"
+            btnStyle="black"
+            title="Shop Now"
+          />
         </div>
       </Article>
       <Footer />
